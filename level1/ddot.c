@@ -1,6 +1,6 @@
 // Adapted by Patrick Flynn : 5/16/19
 
-/*  Example of using BLAS Level 1 ddot_ to get dot product of two double vectors
+/*  Example of using BLAS Level 1 ddot_() function to get dot product of two double vectors
   
     ./ddot N          N = size of the two vectors
     
@@ -34,7 +34,7 @@ void print_vector(double *vec, int n)
     printf("\n");
 }
 
-// -------------------------------------------------------------------------------------------
+// =============================================================================================================
 
 int main(int argc, char* argv[])
 {
@@ -58,10 +58,12 @@ int main(int argc, char* argv[])
   for (i=0; i<n; i++)
     vb[i] = i+3;
 
-//   srand((unsigned)time(NULL));
-// 
-//   for (i=0; i<n; i++)
-//     va[i] = i%3+1;//(rand()%100)/10.0;
+  //   srand((unsigned)time(NULL));
+  // 
+  //   for (i=0; i<n; i++)
+  //     va[i] = i%3+1;//(rand()%100)/10.0;
+  //   for (i=0; i<n; i++)
+  //     vb[i] = i%3+1;//(rand()%100)/10.0;
 
   // ddot_: increments between vector elements
   int inca=1, incb=1;

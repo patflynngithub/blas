@@ -1,8 +1,8 @@
 ! Adapted by Patrick Flynn : 5/16/19
 
-! Example of using BLAS Level 1 DDOT to get dot product of two double vectors
+! Example of using BLAS Level 1 DDOT() function to get dot product of two double vectors
 !   
-!     ./ddot N          N = size of the two vectors
+!     ./ddot_f N          N = size of the two vectors
 !     
 !     Outputs timing to file
 ! 
@@ -18,7 +18,7 @@ program ddot_f
     external DDOT
     double precision :: DDOT
      
-    ! variable declarations
+    ! local variable declarations
     integer               :: i            ! for looping
     integer               :: num_args     ! # of command line arguments
     character(len=32)     :: arg          ! command line argument
@@ -66,8 +66,12 @@ program ddot_f
     
     call SYSTEM_CLOCK(start_count, count_rate)
 
+    ! ********************************************************************
+    
     dotprod = DDOT(n, va, inca, vb, incb)
 
+    ! ********************************************************************
+    
     call SYSTEM_CLOCK(end_count, count_rate)
 
     write (*,*) "dot product = ", dotprod
@@ -80,7 +84,7 @@ program ddot_f
     
 end program ddot_f
 
-! -------------------------------------------------------------------
+! ====================================================================================
 
 ! Output vector
 subroutine print_vector(v,n)
