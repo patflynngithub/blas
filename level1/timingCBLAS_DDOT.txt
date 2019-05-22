@@ -1,0 +1,7 @@
+10 element vector	0.000011 s	1.818182 MFLOPS
+10 element vector	0.000004 s	5.000000 MFLOPS
+10 element vector	0.000011 s	1.818182 MFLOPS
+10 element vector	0.000004 s	5.000000 MFLOPS
+10 element vector	0.000020 s	1.000000 MFLOPS
+10 element vector	0.000003 s	6.666667 MFLOPS
+10 element vector	0.015172 s	0.001318 MFLOPS

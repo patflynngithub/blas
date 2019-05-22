@@ -1,0 +1,9 @@
+square matrix n = 3		0.000017 s
+square matrix n = 3		0.000017 s
+square matrix n = 3		0.000018 s
+square matrix n = 10		0.000018 s
+square matrix n = 10		0.017027 s
+square matrix n = 10		0.000012 s
+square matrix n = 5		0.000016 s
+square matrix n = 4		0.000018 s
+square matrix n = 4		0.000017 s

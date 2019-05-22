@@ -1,0 +1,24 @@
+sudo apt-get install libblas-dev liblapack-dev
+
+------------------------------------------------
+
+inside file:
+
+    extern double ddot_(int*, double*, int*, double*, int*);
+
+compile:
+
+    gcc dgemm.c -lblas -o dgemm
+
+-----------------------------------------------
+
+inside file:
+
+    external DDOT
+    double precision :: DDOT
+
+compile:
+
+    gfortran ddot_f.f90 -lblas -o ddot_f
+
+

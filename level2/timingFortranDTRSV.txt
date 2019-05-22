@@ -1,0 +1,2 @@
+matrix dimension(s) = 3  5.00 seconds
+matrix dimension(s) = 3  .00 seconds

@@ -1,0 +1,7 @@
+mxkxn: 3x2x3, size(C)=9	0.000006 s	6.000000 MFLOPS/sec
+mxkxn: 300x200x300, size(C)=90000	0.009241 s	3895.682285 MFLOPS/sec
+mxkxn: 3000x200x3000, size(C)=9000000	0.935214 s	3849.386344 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000009 s	4.000000 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000027 s	1.333333 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000007 s	5.142857 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000008 s	4.500000 MFLOPS/sec

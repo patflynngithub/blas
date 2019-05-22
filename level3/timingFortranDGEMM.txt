@@ -1,0 +1,2 @@
+matrix dimensions (mxkxn)= 300x200x300  size of C = 90000  .04 seconds
+matrix dimensions (mxkxn)= 300x200x300  size of C = 90000  .03 seconds

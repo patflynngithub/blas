@@ -1,0 +1,13 @@
+mxkxn: 3x2x3, size(C)=9	0.000025 s	1.440000 MFLOPS/sec
+mxkxn: 300x200x300, size(C)=90000	0.008535 s	4217.926186 MFLOPS/sec
+mxkxn: 3000x200x3000, size(C)=9000000	0.941909 s	3822.025270 MFLOPS/sec
+mxkxn: 3000x200x3000, size(C)=9000000	0.964360 s	3733.045751 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000007 s	5.142857 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000007 s	5.142857 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000023 s	1.565217 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000008 s	4.500000 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000018 s	2.000000 MFLOPS/sec
+mxkxn: 300x200x300, size(C)=90000	0.046448 s	775.060282 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000007 s	5.142857 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000007 s	5.142857 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000007 s	5.142857 MFLOPS/sec
