@@ -5,3 +5,4 @@ mxkxn: 3x2x3, size(C)=9	0.000009 s	4.000000 MFLOPS/sec
 mxkxn: 3x2x3, size(C)=9	0.000027 s	1.333333 MFLOPS/sec
 mxkxn: 3x2x3, size(C)=9	0.000007 s	5.142857 MFLOPS/sec
 mxkxn: 3x2x3, size(C)=9	0.000008 s	4.500000 MFLOPS/sec
+mxkxn: 3x2x3, size(C)=9	0.000026 s	1.384615 MFLOPS/sec

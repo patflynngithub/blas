@@ -81,7 +81,7 @@ program ddot_f
     write (1,*) "vector size n = ", n, "  ", (end_count - start_count) * 1.0 / count_rate, " seconds"
            
     deallocate(va,vb)
-    
+
 end program ddot_f
 
 ! ====================================================================================

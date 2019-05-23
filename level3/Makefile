@@ -1,6 +1,5 @@
 
-# Makefile for blas/level1
-
+# Makefile for blas/level3
 
 # $@ is the name of the file to be made.
 # $? is the name of the changed dependents.
@@ -17,42 +16,43 @@ RM=/bin/rm -f
 
 # -------------------------
 
-all: ddot cblas_ddot ddot_f
+all: dgemm cblas_dgemm dgemm_f
 
 .c:
 
 	$(CC) $@.c $(CFLAGS) -o $@
 
-ddot_f : ddot_f.f90
+dgemm_f : dgemm_f.f90
 
 	$(FC) $? $(FFLAGS) -o $@
 
 # Didn't work:
 #
-#    make: *** No rule to make target 'ddot_f', needed by 'all'.  Stop.
+#    make: *** No rule to make target 'dgemm_f', needed by 'all'.  Stop.
 #
 # .f90:
 #
 #	$(FC) $@.f90 $(FFLAGS) -o $@
 
-# all: ddot cblas_ddot ddot_f
+# all: dgemm cblas_dgemm dgemm_f
 # 
-# ddot : ddot.c
+# dgemm : dgemm.c
 # 
-#     # $(CC) ddot.c $(CFLAGS) -o ddot
+#     # $(CC) dgemm.c $(CFLAGS) -o dgemm
 # 	$(CC) $? $(CFLAGS) -o $@
 # 
-# cblas_ddot : cblas_ddot.c
+# cblas_dgemm : cblas_dgemm.c
 # 
-#     # $(CC) cblas_ddot.c $(CFLAGS) -o cblas_ddot
+#     # $(CC) cblas_dgemm.c $(CFLAGS) -o cblas_dgemm
 # 	$(CC) $? $(CFLAGS) -o $@
 # 
-# ddot_f : ddot_f.f90
+# dgemm_f : dgemm_f.f90
 # 
-#     # $(FC) ddot_f.f90 $(FFLAGS) -o ddot_f
+#     # $(FC) dgemm_f.f90 $(FFLAGS) -o dgemm_f
 # 	$(FC) $? $(FFLAGS) -o $@
 
 clean:
 
-	${RM} ddot cblas_ddot ddot_f
+	${RM} dgemm cblas_dgemm dgemm_f
     # find . -type f  \( ! -name "*.*" -and ! -name "Makefile" \) # -delete
+
