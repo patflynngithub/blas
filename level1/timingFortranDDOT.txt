@@ -4,3 +4,4 @@
  vector size n =           10      0.00000000      seconds
  vector size n =           10      0.00000000      seconds
  vector size n =           10      0.00000000      seconds
+ vector size n =           10      0.00000000      seconds
