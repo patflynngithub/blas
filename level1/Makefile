@@ -1,5 +1,6 @@
 CC=gcc
 FC=gfortran
+
 CFLAGS=-lblas
 FFLAGS=-lblas
 
